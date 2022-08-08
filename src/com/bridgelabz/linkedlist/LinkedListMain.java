@@ -6,6 +6,12 @@ public class LinkedListMain {
 
         System.out.println("Welcome to Linked List Program");
 
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.add(56);
+        linkedList.add(30);
+        linkedList.add(70);
+        linkedList.display();
+
     }
 
 
