@@ -31,6 +31,20 @@ public class LinkedListMain {
         linkedList2.popLast();
         linkedList2.display();
 
+        System.out.println();
+        System.out.println("Delete Key operation:");
+        LinkedList<Integer> linkedList3 = new LinkedList<>();
+//        System.out.println("Adding :");
+        linkedList3.add(56);
+        linkedList3.add(30);
+        linkedList3.add(40);
+        linkedList3.add(70);
+        linkedList3.display();
+        linkedList3.deleteKey(56);
+        System.out.println();
+        linkedList3.display();
+
+
     }
 
 

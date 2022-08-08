@@ -96,5 +96,35 @@ public class LinkedList<E> {
 
     }
 
+    public void deleteKey(E key){
+
+        Node<E> temp = head;
+        Node<E> beforeTemp = null;
+
+        if(head.key == key){
+
+            head = head.next;
+
+        }else {
+
+            while(temp!= null){
+
+                if(temp.key==key) {
+                    beforeTemp.next = temp.next;
+                    temp.next = null;
+                    break;
+                }
+
+                beforeTemp = temp;
+                temp = temp.next;
+            }
+
+        }
+
+
+
+
+    }
+
 
 }
