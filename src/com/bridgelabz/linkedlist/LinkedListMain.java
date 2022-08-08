@@ -21,7 +21,6 @@ public class LinkedListMain {
         linkedList2.append(70);
         linkedList2.display();
 
-
     }
 
 
