@@ -21,6 +21,16 @@ public class LinkedListMain {
         linkedList2.append(70);
         linkedList2.display();
 
+        System.out.println();
+        System.out.println("Pop operation:");
+        linkedList2.pop();
+        linkedList2.display();
+
+        System.out.println();
+        System.out.println("PopLast operation:");
+        linkedList2.popLast();
+        linkedList2.display();
+
     }
 
 
