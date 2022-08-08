@@ -34,7 +34,6 @@ public class LinkedListMain {
         System.out.println();
         System.out.println("Delete Key operation:");
         LinkedList<Integer> linkedList3 = new LinkedList<>();
-//        System.out.println("Adding :");
         linkedList3.add(56);
         linkedList3.add(30);
         linkedList3.add(40);
