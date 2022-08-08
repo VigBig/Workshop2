@@ -22,6 +22,23 @@ public class LinkedList<E> {
 
     }
 
+    public void append(E key){
+        Node<E> newNode = new Node<>(key);
+
+        if(tail == null){
+
+            head = newNode;
+            tail = newNode;
+
+        }else{
+
+            tail.next = newNode;
+            tail = newNode;
+
+        }
+
+    }
+
     public void display(){
 
         Node<E> temp = head;
@@ -38,6 +55,8 @@ public class LinkedList<E> {
         }
 
     }
+
+
 
 
 }
